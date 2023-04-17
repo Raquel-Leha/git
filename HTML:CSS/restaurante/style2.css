@@ -1,0 +1,328 @@
+
+.margin{
+    margin: 0;
+}
+
+.head {
+    width: auto;
+    height: 150px;
+    background-color: #1f1f1f;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-left: 50px;
+}
+
+.logo{
+    width: 225px;
+    height: 120px;
+    background: url(assets/mozza.png);
+    background-size: cover;
+
+}
+
+.menu{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box{
+    padding-right: 50px;
+}
+
+.underline{
+    
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+
+ }
+ .image{
+    width: auto;
+    height: 600px;
+    background: url(assets/barmistela__local.png);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+ .imageCenter1{
+    font-size: 80px;
+    font-family: "Sacramento";
+    color:orange;
+ }
+ .imageCenter2{
+    font-size: 30px;
+    color:white;
+    border-bottom: 2px solid orange;
+    margin-bottom: 10px;
+
+ }
+
+ .imageCenter3{
+    border-top: 2px solid orange;
+    font-size: 20px;
+    color:white;
+    padding-top: 10px;
+ }
+
+.fondo{
+    width: auto;
+    height: 500px;
+    background-image: url(assets/arbol.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.concept{
+    width: 250px;
+    height: 250px;
+    background-color: #1f1f1f;
+    color:white;
+    padding: 20px 15px 15px 15px;
+
+}
+
+.centrado{
+    text-align: justify;
+    font-size: smaller;
+    padding: 20px 0 0 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+
+.centro{
+    text-align: center;
+}
+.line{
+    width: 37px;
+    height: 1px;
+    background-color: white;
+    margin-top:25px;
+    margin-left: 19px;
+    margin-right: 17px;
+}
+.centroLine{
+    display:flex;
+}
+.fondo2{
+    width: auto;
+    height: 900px;
+    background-image: url(assets/hojasFondoOscuro.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+
+}
+.images1, .images2, .images3, .images4, .images5, .images6, .images7{
+    width: 250px;
+    height: 200px;
+    border: 1px solid White;
+    margin: 30px 50px 30px 130px;
+}
+.item{
+    height: 300px;
+}
+.item2{
+    height: 180px;
+}
+.images1{
+    background-image: url(assets/mesa.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.images2{
+    background-image: url(assets/silla.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.images3{
+    background-image: url(assets/pizza.avif);
+    background-position: center;
+    background-size: cover;
+
+}
+.images4{
+    background-image: url(assets/cosas.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.images5{
+    background-image: url(assets/señor.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.images6{
+    background-image: url(assets/bebidas.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.images7{
+    background-image: url(assets/carta.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.cartaPrecios{
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.after, .before{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+
+}
+.texto{
+    margin: 0 20px 0 20px;
+}
+.dcc{
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.desayuno, .carta, .cocktail{
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-size: xx-small;
+}
+.desayuno{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.p{
+    width: auto;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    width: 900px;
+    height: 1200px;
+    background-image: url(assets/fondoBeige.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    
+    
+}
+
+.n1{
+    width: 400px;
+    height: 900px;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.n2{
+    width: 400px;
+    height: 1000px;
+    background-color: white;
+    margin-top: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.final{
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.boton{
+    background-color: brown;
+    color:white;
+    font-size:smaller;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+.colum1{
+    width: 300px;
+    height: 900px;
+    padding-top: 35px;
+    padding-left: 20px;
+    
+}
+.colum2{
+    width: 100px;
+    height: 900px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.div1, .div2{
+    width: 100px;
+    height: 450px;
+    
+}
+.div1{
+    padding-top: 67px;
+    padding-left: 61px;
+}
+.div2{
+    padding-top: 30px;
+    padding-left: 61px;
+}
+
+
+
+.columna1{
+    width: 300px;
+    height: 1000px;
+    padding-top: 35px;
+    padding-left: 20px;
+    
+}
+.columna2{
+    width: 100px;
+    height: 900px;   
+    display: flex;
+    flex-direction: column;
+}
+.division1, .division2{
+    width: 100px;
+    height: 500px;   
+}
+.division1{
+    padding-top: 72px;
+    padding-left: 61px;
+}
+.division2{
+    padding-top: 53px;
+    padding-left: 61px;
+}

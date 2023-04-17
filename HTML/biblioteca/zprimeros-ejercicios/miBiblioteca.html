@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi biblioteca casera.</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0"/>
+    </head>
+     <body> 
+
+        <header>
+            <img src="https://pro.upgrade-hub.com/assets/images/logo.svg" alt="Logo Upgrade Hub">
+            <a href="/">Ir a la home</a>
+        </header>
+        <!--Despues del header viene el nav , que es una sección en la que se proporcionan 
+        enlaces de navegación, el menú de nuestra página web.-->
+        <nav>
+
+        </nav>
+        <!--La página también puede tener un menu lateral, un sección de publicidad,
+        artículos (los más leídos o recomendados, etc..)-->
+        <aside>
+            
+        </aside>
+
+         <h1>Soy un título, uno <span style="color:red;">grande!</span></h1>
+         <p>Hola, soy un párrafo.</p>
+         <a href="https://www.google.es" target="_blank">Ir a otra parte de mi página (abriendo una pestaña nueva)</a>
+         <!--La etiqueta br se utiliza para conseguir un salto de linea-->
+         <br/>
+         <input/>
+         <article style="color:aquamarine">
+            <h1>Para poner un encabezado</h1>
+            <a href="miBiblioteca2.html">Ir a página DOS.</a>
+            <p>
+                Esto es un párrafo.</br>
+                <a href="http://www.google.es">Infórmate</a>
+            </p>
+            <h2>Subtitular</h2>
+            <p style="color:green;">Otro párrafo</p>
+         </article>
+         <!--El alt se utiliza para para comentar la imagen si no consigue cargarse. Poner siempre el alt para buen posicionamiento SEO-->
+         <img
+          alt="libros"
+          src="https://img2.rtve.es/i/?w=1600&i=1618740837832.jpg"
+         />
+         <p>Aquí un listado:
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+         </p>
+         <article>
+            <p>
+                Una tabla muy representativa:
+                <!--Lo que sigue es para poner un borde a la tabla, pero debería hacerse con CSS-->
+                <table border="1">
+                    <!--La etiqueta thead que viene ahora no es obligatoria, pero sí muy recomendable usarla-->
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Raquel</td>
+                            <td>López</td>
+                            <td>33</td>
+                        </tr>
+                        <tr>
+                            <td>Juanma</td>
+                            <td>Pérez</td>
+                            <td>56</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </p>
+         </article>
+
+         <div>
+            <!--Los button se utilizan en JavaScipt para la programación por eventos. 
+            Al pulsar el usuario el botón, se produce el evento asignado-->
+            <button>Mi botón sin submit</button>
+            <!--METHOD: GET se usa para los buscadores, aparece la información que se manda en la URL. 
+            POST no va en la URL. Es mandar información para guardarla en una base de datos.-->
+            <form action="" method="GET">
+                <fielset>
+                    <legend>Datos personales.</legend>
+                    <label for="tuNombre">Nombre:</label>
+                    <input type="text" name="nombre" id="tuNombre" value="Soraya"/>
+                    <label for="tuApellido">Apellido:</label>
+                    <input type="text" name="apellido" id="tuApellido" value="Pérez"/>
+                    <label for="fecha">Fecha:</label>
+                    <input type="text" name="lafecha" id="fecha" value="14/06/1966"/>
+                </fielset>
+                <input type="submit" value="Mandar"/>
+                <button>Otro botón que hace submit (envía información)</button>
+
+
+            </form>
+            <form action="" method="GET">
+                <fieldset>
+                    <legend>Escribe una reseña.</legend>
+                    <label for="elAutor">Autor:</label>
+                    <input type="text" name="autor" id="elAutor"/>
+                    <label for="elTitulo">Título del libro:</label>
+                    <input type="text" name="titulo" id="elTitulo"/>
+                    <label for="laReseña">Reseña</label>
+                    <input type="text" name="reseña" id="laReseña"/>
+                </fieldset>
+                <input type="submit" value="Publicar reseña"/>
+            </form>
+            
+            
+         </div>
+
+         <footer>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <a href="https://www.instagram.com/upgrade_hub">Instagram</a>
+            <a href="https://www.facebook.com/UpgradeHub/">Facebook</a>
+        </footer>
+
+
+
+
+     
+    
+        
+     </body>
+</html>

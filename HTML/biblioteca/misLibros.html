@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>MI WEB DE LIBROS</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+    <header>
+        <img class="posicion" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIam7p-ohtLxnl25PulHEglhltI2t_7rLvw&usqp=CAU"/>
+        <button class="abajoIzquierda" >Selecciona tu perfil V</button>
+
+    </header>
+    <nav>
+        <input type="text" name="tuBusqueda" value="Encuentra tu libro"/>
+    </br>
+        <a href="busquedaAvanzada.html" target="_blank">Búsqueda Avanzada</a>
+    </br>
+        <a href="catalogoMaterias.html" target="_blank">Catálogo de Materias</a>
+    </nav>
+    <aside>
+        <table class="box" border="1">
+            <thead>
+                <tr>
+                    <th>COLECCIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ciencia</td>
+                </tr>
+                <tr>
+                    <td>Astronomía</td>
+                </tr>
+                <tr>
+                    <td>Psicología</td>
+                </tr>
+                <tr>
+                    <td>Conciencia</td>
+                </tr>
+                <tr>
+                    <td>Informática</td>
+                </tr>
+                <tr>
+                    <td>Sociología/Antropología</td>
+                </tr>
+                <tr>
+                    <td>Novelas de ficción</td>
+                </tr>
+                <tr>
+                    <td>Ensayos</td>
+                </tr>
+                <tr>
+                    <td>Libros en inglés</td>
+                </tr>
+            </tbody>
+        </table>
+    </aside>
+    <div>
+        <h1 class="title-red">SINOPSIS DE LOS ULTIMOS LIBROS LEÍDOS</h1>
+        <article>
+            <h2><span style="color:blueviolet;">La dama de las camelias</span> de Alejandro Dumas</h2>
+            <p>La dama de las camelias, publicada por primera vez en 1848, es una novela firmada por
+                Alexandre Dumas (hijo). Esta obra está inspirada en un hecho real de la vida de Alexandre
+                relativo a un romance, que tuvo lugar en 1847 según el propio autor, con Marie Duplessis,
+                oven cortesana de París que mantuvo distintas relaciones con grandes personajes de la vida
+                social. La novela pertenece al movimiento literario que se conocería como realismo, siendo
+                na de las primeras que formarían parte de la transición desde el romanticismo.</p>
+        </article>
+        <article>
+            <h2><span style="color:blueviolet;">A sangre fría</span> de Truman Capote</h2>
+            <p>A sangre fría narra el brutal asesinato de los cuatro miembros de una familia de Kansas. 
+                En 1959, un violento crimen sacudió la tranquila vida de Holcomb, Kansas. La sociedad 
+                estadounidense de aquellos años quedó conmocionada por un crimen que sugería que cualquiera 
+                podía morir asesinado en cualquier momento.</p>
+        </article>
+    </div>
+    <div>
+        <h1>ÚLTIMAS RESEÑAS DE LOS LECTORES</h1>
+        <article>
+            <h2><span style="color:red;">La sonata del silencio</span> de Julia Sánchez Garnica.</h2>
+            <p>Cuando empecé a leer el libro, vi que no era una simple historia ambientada en la posguerra
+                 española, sino mucho más. Me cautivó y me atrapó desde el principio y nunca me había 
+                 terminado 900 páginas en tan poco tiempo. Gran novela de Paloma Sánchez-Garnica con un final
+                 sorprendente. En 2016 supe que RTVE estaba preparando una serie basada en esta obra, lo que
+                 me empujó a leerla antes de que se emitiera. La serie me gustó mucho, muy bien interpretada
+                 y curiosamente adaptada con un gran trabajo de los guionistas de "El Ministerio del Tiempo",
+                 otra de mis series favoritas. La novela me dejó un gran sabor de boca, es dura como la época
+                 que refleja y se complementa muy bien con la serie porque ambas ofrecen cosas que la otra no
+                 tiene, por ejemplo la novela describe al final una escena preciosa que no vemos en la 
+                 adaptación televisiva. Muy recomendable.</p>           
+        </article>
+        <article>
+            <h2><span style="color:red;">El Conde de Montecristo</span> de Alejandro Dumas.</h2>
+            <p>Según dicen Dumas tuvo varios "colaboradores" que entregaban sus manuscritos al francés y este
+                los reescribia o incluso tan solo estampaba su firma. En el caso que nos ocupa, cuentan que un
+                tal Auguste Maquet realizó muchas de las páginas del conde de montecristo, y mi curiosidad me 
+                llevó a leer la obra con ojo crítico. No, no he sido capaz de encontrar dos plumas en esta, 
+                es hora de que lo diga, magistral novela. Seguramente porque desde la primera página quedé 
+                atrapado tanto por el contenido, como por la prosa, como por la fuerza de Edmundo Dantés, uno
+                de los personajes más inmensos que me he tropezado en la literatura. El conde de montecristo 
+                es una pieza bordada a mano, con hilo de oro y letras de plata. Si, a veces la trama se va 
+                r las ramas, pero hay tanta belleza en esas ramas... me viene a la mente el pasaje de 
+                Simbad y Franz saboreando hachís en la cueva...de incalculable valor para mis sentidos.</p>
+        </article>
+    </div>
+
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Escribe una reseña.</legend>
+            <label for="elAutor">Autor:</label>
+            <input type="text" name="autor" id="elAutor"/>
+            <label for="elTitulo">Título del libro:</label>
+            <input type="text" name="titulo" id="elTitulo"/>
+            <label for="laReseña">Reseña:</label>
+            <input type="text" name="reseña" id="laReseña"/>
+        </fieldset>
+        <input type="submit" value="Publicar reseña"/>
+    </form>
+
+    <h2>Lista de los libros más leídos del 2022</h2>
+    <p>Estos son los libros más leídos del 2022 según la web especializada 
+        <a href="http://www.todostuslibros.com">todostuslibros.com:</a>
+    </p>
+    <ul>
+        <li>Todas esas cosas que te diré mañana.</li>
+        <li>El camino del fuego.</li>
+        <li>El peligro de estar cuerda.</li>
+        <li>La ladrona de huesos.</li>
+        <li>Por si las voces vuelven.</li>
+    </ul>
+    <p>Y los dos mejores con diferecia, son:</p>
+    <ol>
+        <li>Por si las voces vuelven.</li>
+        <li>El peligro de estar cuerda.</li>
+    </ol>
+
+    <footer>
+        <h3>Visita nuestras redes sociales:</h3>
+        <a href="http://www.instagram.com">Instagram</a>
+    </br>
+        <a href="http://www.facebook.com">Facebook</a>
+    </footer>
+
+
+</body>
+</html>

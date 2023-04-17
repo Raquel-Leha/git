@@ -1,0 +1,99 @@
+
+.body{
+    margin: 0;
+}
+.cabecera{
+    width: 1500px;
+    height: 100px;
+    background-color: #1f1f1f;
+    
+    
+}
+
+.imagen{
+    position:relative;
+    left: 150px;
+    top: 8px;
+    height: 90px;
+    width: auto;
+}
+
+.menu span{
+    color: white;
+    margin-right: 40px;
+}
+
+.menu{
+    position:relative;
+    top:-56px;
+    left: 760px;
+    
+}
+.underline{
+
+    border-bottom: 1.5px solid orange;
+        
+}
+.imagenDos{
+    position: relative;
+    width:1500px;
+    height: 600px;
+
+}
+
+.imagenTres{
+
+    position: relative;
+    left: 637.5px;
+    bottom: 380px;
+}
+
+
+.imagenHojas{
+    
+    position:relative;
+    bottom: 172px;
+    width:1500px;
+    height: 500px;
+    opacity: 0.5;
+
+}
+
+.box{
+background-color: #1f1f1f;
+padding: 40px 20px 20px 20px;
+width: 250px;
+height: 250px;
+position: relative;
+left: 637.5px;
+bottom: 572px;
+
+}
+
+.blanco{
+
+    color:white;
+    text-align:justify;
+    font-size: smaller;
+    
+}
+
+.negro{
+    background-color: black;
+    height: 400px;
+    width: auto;
+
+}
+
+.blanco{
+    background-color: white;
+    height: 250px;
+    width: auto;
+}
+
+.gris{
+    background-color: grey;
+    opacity: 0.5px;
+    height: 250px;
+    width: auto;
+}

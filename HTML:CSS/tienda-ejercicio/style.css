@@ -1,0 +1,235 @@
+.no-margin{
+    margin:0;
+    padding:0;
+    
+}
+.cambio-color{
+    color: red;
+}
+.no-margin p{
+    margin:3px;
+    padding:0;
+    font-size: 12px;
+}
+.box-father{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: auto;
+    height: 90px;
+    
+}
+.menu{
+    position:absolute;
+}
+.caja-vacia{
+    width: 100px;
+    height: 20px;
+}
+.name{
+    font-weight:bold;
+    font-size: larger;
+}
+.pill-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    background-color: white;
+}
+.pill{
+    height: 350px;
+    width: 100%;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+
+.pill .pill-content{
+
+    width: 100%;
+    height: 320px;
+    
+}
+
+.pill .pill-content2{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.pill-content2 p{
+    font-size:x-small;
+}
+.imagen1{
+    background-image: url(assets/camiseta1.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen2{
+    background-image: url(assets/camiseta2.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen3{
+    background-image: url(assets/camiseta3.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen4{
+    background-image: url(assets/camiseta4.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen5{
+    background-image: url(assets/camiseta5.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen6{
+    background-image: url(assets/camiseta6.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen7{
+    background-image: url(assets/camiseta7.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen8{
+    background-image: url(assets/camiseta8.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen9{
+    background-image: url(assets/camiseta9.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen10{
+    background-image: url(assets/camiseta10.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen11{
+    background-image: url(assets/camiseta11.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen12{
+    background-image: url(assets/camiseta12.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen13{
+    background-image: url(assets/camiseta13.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen14{
+    background-image: url(assets/camiseta14.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen15{
+    background-image: url(assets/camiseta15.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.imagen16{
+    background-image: url(assets/camiseta16.jpg);
+    background-size: cover;
+    background-position: center;;
+
+}
+.emoticon{
+    width: 100px;
+    border-bottom: 2px solid black;
+    margin-right: 15px;
+}
+.raya-horizontal1{
+
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    
+}
+.raya-horizontal2{
+
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.en-negrita{
+    font-weight: 700;
+}
+.subrayado{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    padding-bottom: 20px;
+    font-size: x-small;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+.padre{
+    width: 100%;
+    height: 200px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.ultimo{
+    width: auto;
+    height: 60px;
+}
+
+
+
+@media (min-width: 768px){
+    .pill{
+        width: calc(50% - 20px);
+    }
+
+}
+@media (min-width: 992px){
+    .pill{
+        width: calc(33.333% - 20px);
+    }
+
+}
+@media (min-width: 1200px){
+    .pill{
+        width: calc(25% - 20px);
+    }
+
+}
+    

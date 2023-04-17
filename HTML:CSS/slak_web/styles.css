@@ -1,0 +1,596 @@
+:root{
+    --color-primary: #4a154b;
+}
+
+
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    width: auto;
+    height: 80px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content:space-between;
+}
+.nav-div-1{
+    
+    background-image: url(assets/logo-slack.png);
+    background-position: center;
+    background-size: cover;
+
+    width: 125px;
+    height: auto;
+    margin-left: 55px;
+ 
+}
+.nav-div-2{
+    background-color: var(--color-primary);
+    width: 18px;
+    height: auto;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 12px;
+    
+}
+.menu{
+    display:none;
+}
+
+.cabecera{
+    background-color: var(--color-primary);
+    width: auto;
+    height: 800px;
+}
+
+.section-title{
+
+    color:white;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 1.0625;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-yellow{
+    color: #ecb22e!important;
+}
+
+.frase{
+    color:white;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight:400;
+    line-height: 1.444;
+    text-align: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.button1{
+    background-color: white;
+    color:#4a154b;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+}
+.button2{
+    background-color: #4285f4;
+    color: white;
+    width: 100%;
+    height: 55px;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding-left:4px;
+    padding-right: 10px;
+    border:0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.button-hover:hover{
+    border: var(--color-primary);
+}
+.caja-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+
+}
+.icon{
+    width: 49px;
+    height: 49px;
+    border-radius: 3px;
+    background-image: url(assets/icong.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-vacio{
+    width: 49px;
+    height: 49px;
+}
+.marco1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70%;
+}
+
+.marco2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    background-image: url(assets/movil-video.png);
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.father, .father2{
+    width: 100%;
+    height: auto;
+    background-color: #F4EDE4!important;
+    display: flex;
+    flex-direction: column;
+}
+.fa2{
+    align-items: flex-end;
+}
+
+.div-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+.div-2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.div-3{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 40px;
+    
+}
+.div-3-verde{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content:right;
+    margin-bottom: 40px;
+    
+}
+.div-3-1{
+    display: none;
+}
+
+
+.div-4{
+    max-width: 515px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:left;
+    align-items:left;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom:40px;
+}
+
+.logos{
+    margin-right:15px;
+    margin-left: 15px;
+
+}
+.frase-l{
+    margin-right: 7px;
+}
+.div-4-1{
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.div-4-2{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom:15px;
+    margin-right: 30px;
+}
+.div-4-3{
+    font-size: 20px;
+    font-weight: 100;
+  
+    
+}
+
+.link1{
+    color:#4285f4;
+    cursor:pointer;
+    text-decoration: none;
+
+}
+.link1:hover{
+    text-decoration:underline;
+}
+
+
+
+/*SECCIÓN 1, CON TITULARES, PÁRRAFOS, BOTONES Y PORCENTAJES, SECCIÓN 1*/
+
+.section-one{
+    background-color:white;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.button-Slack, .button-ventas{
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-Slack{
+    background-color: #4a154b;
+    color:white;
+    margin-bottom: 35px;
+}
+.button-ventas{
+    background-color: white;
+    color:#4a154b;
+    border: 1px solid #4a154b;
+}
+.button-ventas:hover{
+    border: 3px solid #4a154b;
+}
+.button-Slack:hover{
+    background-color: #611f69;
+    
+}
+.porcentaje{
+    color:#4a154b;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    
+}
+button{
+    border:none;
+}
+.texto{
+    max-width: 185px;
+    font-size:medium;
+    text-align: center;
+    margin:0;
+}
+.frase-slack{
+    max-width: 90%;
+    font-size: 20px;
+    text-align: center;
+}
+.h3-section-one{
+    max-width: 80%;
+    font-size: 33px;
+    font-weight:900;
+    text-align: center;
+
+}
+
+.section-one-one p{
+    text-align: center;
+}
+
+.div5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+
+}
+.div5-video{
+    width: 69%;
+    height: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10%;
+}
+
+.div5 p{
+    margin-left: 15px;
+}
+.mark{
+    font-weight: 900;
+}
+.div-5-2{
+    width: 69%;
+}
+
+/* Apartado realizado con las funciones de grid */
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 0.1fr 7fr;
+    background-color: aquamarine;
+
+
+}
+.bb-box1{
+    font-size: 33px;
+    background-color: red;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bb-box2{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 50px;
+    padding: 50px;
+
+}
+
+.b-box2-2{
+    display: grid;
+    grid-template-rows: 4fr 0.3fr 3fr 0.3fr;
+    
+    
+}
+.colums{
+    background-color: white;
+    padding: 10px;
+    
+
+}
+.subtext{
+    font-size: smaller;
+}
+.frase-subtext{
+    font-size: 24px;
+    font-weight: 600;
+}
+.frase-link{
+    color: #4285f4;
+}
+
+
+.last{
+    width: auto;
+    height: 370px;
+    background-color:#4a154b;
+}
+
+
+
+
+
+
+
+/* INICIO DE MEDIAS QUERIES */
+@media (min-width:768px){
+
+    .div-3-1{
+        width: 687px;
+        height: 400px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .div-3{
+        display: none;
+    }
+  
+
+    .cabecera{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .marco1{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .marco2{
+        width: 50%;
+        height: 70%;
+        margin-right: 50px;
+        margin-left: 10px;
+        background-position: left;
+
+    }
+    .p{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+    .button-Slack, .button-ventas{
+        margin:5px;
+        width: 30%;
+    }
+
+    .section-one-one{
+        display:flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .div5{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-5-1, .div-5-2{
+        width: 40%;
+    }
+    
+
+
+}
+
+
+@media (min-width: 1085px){
+    .nav-div-2{
+        display:none;
+    }
+    .boton1{
+        display:none;
+    }
+    nav{
+    justify-content: space-around;
+    }
+    .menu{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+    }
+    .boton2{
+        color:#4a154b;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 160px;
+        margin-right: 100px;
+        
+    }
+    .boton-hover2:hover{
+        border: 3px solid #1264a3;
+        border-radius: 5px;
+    }
+    .caja-vacia{
+        width: 180px;
+        height: 80px;
+    }
+}
+
+
+@media (min-width: 1344px){
+
+    .nav-div-2{
+        display:none;
+    }
+
+    .boton1{
+            color: white;
+            background-color: var(--color-primary);
+            border: 1px solid white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 280px;
+            margin-left: 30px;
+    }
+     
+    .boton-hover1:hover{
+            border: 4px solid white;
+            border-radius: 6px;
+    }
+
+}
+@media (min-width: 1024px){
+    .father2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa2{
+        flex-direction: row-reverse;
+    }
+    
+
+    .div-3{
+        display: none;
+    }
+    .div-3-1{
+        
+        padding-right: 45px;
+    }
+    .div-4{
+        padding-left: 45px;
+        margin:0;
+    }
+
+    .grid-container{
+        display:none;
+    }
+
+    .bb-box1{
+        display:none;
+    }
+    .bb-box2{
+        display:none;
+    }
+
+    .grid-container2{
+        display:grid;
+        grid-template-rows: 1fr, 6fr;
+    }
+ 
+    .b-box1{
+        
+        font-size: 37px;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    .b-box2{
+        
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-gap: 40px;
+        padding: 40px;
+    }
+
+   
+
+
+}
+
+
+
